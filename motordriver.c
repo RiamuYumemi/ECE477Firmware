@@ -75,7 +75,7 @@ void TIM6_ms_Delay(uint16_t delay) {
 }
 
 
-int main(void) {
+int motordriver(void) {
     enable_port();
     TIM2_Init();
     TIM3_Init();
